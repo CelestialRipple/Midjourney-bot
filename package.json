@@ -1,0 +1,27 @@
+{
+    "name": "koishi-plugin-midjourney-api",
+    "description": "自用Midjourney绘图，后端测试中所有暂时没啥用～",
+    "private": false,
+    "version": "1.0.0",
+    "main": "lib/index.js",
+    "files": [
+        "lib"
+    ],
+    "author": "rippppp <me@hiripple.com>",
+    "maintainers": [
+        "ripp <me@hiripple.com>"
+    ],
+    "license": "MIT",
+    "keywords": [
+        "koishi",
+        "plugin",
+        "AIGC",
+        "midjourney"
+    ],
+    "peerDependencies": {
+        "koishi": "^4.9.9"
+    },
+    "dependencies": {
+        "axios": "^1.2.2"
+    }
+}
